@@ -20,7 +20,7 @@ from decimal import Decimal
 Proto = "http://"; Server = "127.0.0.1"; Port = ":8080"; PATH = "/AutoTrader"
 URL = ''.join([Proto,Server,Port,PATH])
 
-Polo = Poloniex("8Z96WF3Q-CUV390KL-59AZ31CQ-GZOIUULT", "bbb8edd76c9bb47585d26316e17015116a138cea7a7218d87f99388ecfd6c57d5c5125a98387ad53263dd3c9152d258fb4a479f2f97275fbbddc22f390d2323f")
+Polo = Poloniex("", "")
 
 Exchanges = ["Polo"] ### Exchange API Classes from Modules
 Exchanges = [Exchange for Exchange in Exchanges if Exchange is not None]
