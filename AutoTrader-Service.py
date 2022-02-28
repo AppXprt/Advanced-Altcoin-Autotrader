@@ -146,7 +146,7 @@ class Handler(BaseHTTPServer.BaseHTTPRequestHandler):
             self.send_error(404, "Improper GET Path Issued!")
             return
        
-        if(arguments['pass'] == ["gen0cide"]):
+        if(arguments['pass'] == [""]):
             self._set_headers()
 
             if(arguments['method'] == ["returnBalances"]):
